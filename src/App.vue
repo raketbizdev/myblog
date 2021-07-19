@@ -1,6 +1,6 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Amplify"/>
+  <HelloWorld msg="Welcome to Amplify 2"/>
 </template>
 
 <script>
