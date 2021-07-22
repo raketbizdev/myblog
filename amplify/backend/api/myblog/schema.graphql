@@ -9,3 +9,9 @@ type Blog @model {
   title: String
   content: String
 }
+
+type Comment @model {
+  id: ID!
+  name: String
+  post: Post @connection
+}
