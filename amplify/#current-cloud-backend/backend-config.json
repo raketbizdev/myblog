@@ -9,12 +9,20 @@
             "authenticationType": "API_KEY",
             "apiKeyConfig": {
               "apiKeyExpirationDays": 7,
-              "description": "myblog-api"
+              "description": ""
             }
           },
           "additionalAuthenticationProviders": []
         }
       }
+    }
+  },
+  "auth": {
+    "myblog0752a797": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
     }
   }
 }

@@ -3,3 +3,9 @@ type Post @model {
   name: String!
   description: String
 }
+
+type Blog @model {
+  id: ID!
+  title: String
+  content: String
+}

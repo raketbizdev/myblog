@@ -35,7 +35,7 @@
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-myblog-dev-105420-deployment/amplify-cfn-templates/api/cloudformation-template.json",
         "logicalId": "apimyblog"
       },
-      "lastPushTimeStamp": "2021-07-19T14:23:41.311Z",
+      "lastPushTimeStamp": "2021-07-22T10:16:09.966Z",
       "lastPushDirHash": "XBY0dxC4oVHkniXptvN2uR7j2K0="
     }
   },
@@ -44,7 +44,22 @@
       "service": "Cognito",
       "providerPlugin": "awscloudformation",
       "dependsOn": [],
-      "customAuth": false
+      "customAuth": false,
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-myblog-dev-105420-deployment/amplify-cfn-templates/auth/myblog0752a797-cloudformation-template.yml",
+        "logicalId": "authmyblog0752a797"
+      },
+      "lastPushTimeStamp": "2021-07-22T10:16:09.974Z",
+      "output": {
+        "UserPoolId": "us-east-2_Gx9Mb2ntn",
+        "AppClientIDWeb": "4i52kogntivm8r1jgm77i0uju9",
+        "AppClientID": "4r99002fsb666qq8ushreqdmuo",
+        "IdentityPoolId": "us-east-2:e89f6d32-23a9-4899-b08a-1beed1b6803f",
+        "UserPoolArn": "arn:aws:cognito-idp:us-east-2:059905282046:userpool/us-east-2_Gx9Mb2ntn",
+        "IdentityPoolName": "myblog0752a797_identitypool_0752a797__dev",
+        "UserPoolName": "myblog0752a797_userpool_0752a797"
+      },
+      "lastPushDirHash": "/xT6JQuTmI0Q0D83lUwnHpUHV3Y="
     }
   }
 }
